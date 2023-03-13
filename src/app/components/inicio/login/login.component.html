@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="cardLogin">
+    <div class="formBody">
+      <h3 class="formTitle">Inicio de Sesión</h3>
+      <form>
+        <p>
+          ¿No Tienes Cuenta?
+          <a routerLink="/register">REGISTRAR NUEVO USUARIO</a>
+        </p>
+        <div class="inputsContainer">
+          <div class="form-group">
+            <label for="">Tipo de identificación de usuario*</label>
+            <select name="tipoDocumento" class="select">
+              <option value="" selected disabled>Escoger</option>
+              <option value="1">C.C</option>
+              <option value="2">T.I</option>
+              <option value="3">C.E</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="">Documento de identidad</label>
+            <input type="text" class="inputLogin" />
+          </div>
+          <div class="form-group">
+            <label for="">Contraseña</label>
+            <input type="text" class="inputLogin" />
+          </div>
+        </div>
+        <button>
+            Iniciar sesion
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
